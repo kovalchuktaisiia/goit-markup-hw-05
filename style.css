@@ -97,6 +97,7 @@ header {
     background-color: var(--white-background);
     border: 1px; 
     border: 1px solid #ECECEC;
+    position: relative;
 }
 
 .header {
@@ -131,13 +132,11 @@ header a {
 
 
 .header-list {
-    display: flex;
+        display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 90px;
-    margin: 0px;
-
-  
+    margin: 0px; 
 }
 
 .header-list .item{
@@ -172,10 +171,11 @@ header a {
 
 .current::after {
     background-image: url(./svg/hover.svg);
-    margin-right: 0;
     content: "";
+    bottom: 0;
+    position: absolute;
     background-repeat: no-repeat;
-    display: inline-block;
+    display: block;
     height: 4px;
     width: 100%;
 }
