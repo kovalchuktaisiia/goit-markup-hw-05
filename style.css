@@ -170,6 +170,16 @@ header a {
     color: var(--accent-link-color);
 }
 
+.current::after {
+    background-image: url(./svg/hover.svg);
+    margin-right: 0;
+    content: "";
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 4px;
+    width: 100%;
+}
+
 .envelope {
     width: 16px;
     height: 10px;
