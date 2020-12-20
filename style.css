@@ -120,6 +120,10 @@ header a {
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;  
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list {
@@ -186,6 +190,10 @@ header a {
     margin-right: 10px;
     vertical-align: middle;
     fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-icon {
@@ -194,6 +202,10 @@ header a {
     margin-right: 10px;
     vertical-align: middle;
     fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .envelope::before{
@@ -417,7 +429,6 @@ p {
     text-align: center;
     padding-top: 94px;
     padding-bottom: 90px;
-
 }
 
 .our-team-title {
@@ -468,6 +479,10 @@ p {
     border-radius: 50%;
     margin-right: 10px;
     fill: var(--icon-colour);
+ 
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sosial-media-list a:hover,
@@ -481,6 +496,10 @@ p {
     height: 20px;
     margin-left: auto;
     margin-right: auto;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-clients {
@@ -502,6 +521,10 @@ p {
     border: 1px solid;
     border-color: #AFB1B8;
     border-radius: 4px;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .clients-item {
@@ -532,6 +555,10 @@ p {
 
 .clients-icon {
     fill: var(--icon-colour);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .clients-icon:hover,
@@ -582,6 +609,9 @@ p {
     padding-top: 8px;
     cursor: pointer;
 
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .button:focus,
