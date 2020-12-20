@@ -176,6 +176,7 @@ header a {
 .current::after {
     background-image: url(./svg/hover.svg);
     content: "";
+    /* background-color: var(--accent-link-color); */
     bottom: 0;
     position: absolute;
     background-repeat: no-repeat;
@@ -364,18 +365,22 @@ p {
 }
 
 .antena::before {
+    content: "";
     background-image: url(./svg/antenna\ 1.svg);
 }
 
 .clock::before {
+    content: "";
     background-image: url(./svg/clock\ 1.svg);
 }
 
 .diagrama::before {
+    content: "";
     background-image: url(./svg/diagram\ 1.svg);
 }
 
 .astronaut::before {
+    content: "";
     background-image: url(./svg/astronaut\ 1.svg);
 }
 
@@ -707,6 +712,7 @@ p {
 
 .project-item-photo:hover::before {
   opacity: 1;
+  content: "";
 }
 
 .project-item-description {
@@ -815,7 +821,12 @@ padding-bottom: 60px;
 .media:hover,
 .media:focus {
     background-color: var(--accent-link-color);
+
+    transition-property: ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .instagram {
     background-image: url(./svg/instagram\ 2.svg);
 }
