@@ -306,14 +306,16 @@ ul {
 }
 
 .backdrop.is-hidden {
-    opacity: 0;
+    opacity: 0.5;
     pointer-events: none;
 }
 
 .modal {
     position: absolute;
-    left: 536px;
-    top: 221px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
     width: 528px;
     height: 581px;
     background: white;
