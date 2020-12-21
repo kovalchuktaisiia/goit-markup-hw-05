@@ -305,8 +305,8 @@ ul {
 
 .backdrop {
 
-    transition-property: background-color;
-   transition-duration: 500ms;
+   transition-property: opacity;
+   transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     position: fixed;
