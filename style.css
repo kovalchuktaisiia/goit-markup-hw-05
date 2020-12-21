@@ -699,6 +699,10 @@ p {
     margin: 0px;
 }
 
+.projects a {
+    text-decoration: none;
+}
+
 .project-item {
     width: 370px;
     margin-right: 40px;
